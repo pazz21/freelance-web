@@ -15,7 +15,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/business-casual.css" rel="stylesheet">
+    <link href="css/brvs.css" rel="stylesheet">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
@@ -30,13 +30,14 @@
 
 </head>
 
-<body>
+<body data-spy="scroll">
+<section id="home">
 
     <div class="brand">BRVS GROUP</div>
-    <div class="address-bar">Company tagline or quotation</div>
+    <div class="address-bar">Excellence in Business value delivery</div>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-default" role="navigation">
+    <nav class="navbar navbar-inverse" id='nav_bar' role="navigation" >
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -53,25 +54,56 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="index.html">Home</a>
+                        <a class="page-scroll" href="#home">Home</a>
                     </li>
+                    <li class="dropdown">
+              <a href="#company" class="page-scroll" data-toggle="dropdown">Company<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a class="page-scroll" href="company.html#about">About BRVS</a></li>
+                <li><a class="page-scroll" href="company.html#leadership">Leadership  </a></li>
+                <li><a class="page-scroll" href="company.html#successstories">Success Stories</a></li>
+                <li class="divider"></li>
+                <li><a class="page-scroll" href="#team">Team</a></li>
+                <!--<li class="divider"></li>
+                <li><a href="#">One more separated link</a></li>-->
+              </ul>
+            </li>
+                    <li class="dropdown">
+              <a href="service.html" class="dropdown-toggle page-scroll" data-toggle="dropdown">Service Offerings<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a class="page-scroll" href="service.html#technologysolutions">Technology Solutions</a></li>
+                <li><a class="page-scroll" href="service.html#staffaugmentation">Staff Augmentation</a></li>
+                <li><a class="page-scroll" href="service.html#enterprisetransformation">Enterprise Transformation</a></li>
+                <li><a class="page-scroll" href="service.html#strategicaccounts">Strategic Accounts</a></li>
+                <li><a class="page-scroll" href="service.html#training">Training</a></li>
+                <!--<li class="divider"></li>
+                <li><a class="page-scroll" href="#team">Team</a></li>
+                <li class="divider"></li>
+                <li><a href="#">One more separated link</a></li>-->
+              </ul>
+            </li>
+                    <li class="dropdown">
+              <a href="specialities.html" class="dropdown-toggle page-scroll" data-toggle="dropdown">Specialities<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a class="page-scroll" href="specialities.html#bigdataanalytics">Big Data Analytics</a></li>
+                <li><a class="page-scroll" href="specialities.html#businessprocessmanagement">Business process management</a></li>
+                <li><a class="page-scroll" href="specialities.html#processautomation">Process automation</a></li>
+                <li><a class="page-scroll" href="specialities.html#enterpriserulesengine">Enterprise Rules Engine</a></li>
+                <li><a class="page-scroll" href="specialities.html#applicationintegration">Application Integration</a></li>
+                <li><a class="page-scroll" href="specialities.html#portfoliorationalization">Portfolio rationalization</a></li>
+                <li><a class="page-scroll" href="specialities.html#projectdelivery">Project delivery</a></li>
+                <li><a class="page-scroll" href="specialities.html#enterprisearchitechture">Enterprise Architecture</a></li>
+                <li><a class="page-scroll" href="specialities.html#qualityassurance">Quality assurance</a></li>
+                <!--<li class="divider"></li>
+                <li><a class="page-scroll" href="#team">Team</a></li>
+                <li class="divider"></li>
+                <li><a href="#">One more separated link</a></li>-->
+              </ul>
+            </li>
                     
                     <li>
-                        <a href="about.html">About</a>
+                        <a class="page-scroll" href="contact.html">Contact Us</a>
                     </li>
-                    <li>
-                        <a href="industries.html">Industries</a>
-                    </li>
-                    <li>
-                        <a href="methodology.html">Methodology</a>
-                    </li>
-                    <li>
-                        <a href="quality.html">Quality</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                    
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -127,33 +159,7 @@
             </div>
         </div>
 
-        <div class="row">
-            <div class="box">
-                <div class="col-lg-12">
-                    <hr>
-                    <h2 class="intro-text text-center">
-                        <strong>Technology Solutions</strong>
-                    </h2>
-                    <hr>
-                    <!--<img class="img-responsive img-border img-left" src="img/intro-pic.jpeg" alt="">-->
-                    <hr class="visible-xs">
-                    <p><u>Improve application ROI while out-maneuvering the competition</u>:
-                    In today’s global, Internet-enabled economy, change impacts your business at the speed of light. Blink and you’re already behind not only your projections, but also your competition. BRVS Group helps enterprises pass their cost efficiencies directly through to the bottom line by enhancing the real-time performance of their critical applications. BRVS Group's Enterprise Solutions and Consulting (ESC) is focused in the areas of e-Business Consulting and solutions development.</p>
-                    <p>ESC was carved with a mission to help improve the competitiveness of its clients, enabling them to thrive in the new economy and focus on providing end to end solutions in areas of Supply Chain Management , Customer Relationship Management, Supplier Relationship Management, Process Consulting, Global Logistics Consulting, Document and Knowledge Management, Product Life-Cycle Management, EAI & Web Services, Six Sigma Consulting, User Experience Management and E-Governance.</p>
-                    <p>The role of BRVS Group-ESC enables business success of its clients, not merely successful functional deployment of IT by addressing the following: 
-                    <ul>
-                    <li><strong>Strategic Excellence</strong></li>
-                    <li><strong>Operational Excellence</strong></li>
-                    <li><strong>IT Architecting, Implementation and Maintenance</strong></li>
-                    <li><strong>Change Management</strong></li>
-                    <li><strong>Infrastructure management outsourcing services</strong></li>
-                    <li><strong>Applications management outsourcing services</strong></li>
-                    </ul>
-
-                    </p>
-                </div>
-            </div>
-        </div>
+        
 
         <div class="row">
             <div class="box">
@@ -215,6 +221,12 @@
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
+    <!-- dropdown -->
+    <script src="js/dropdown.js"></script>
+
+    <!-- navbar -->
+    <script src="js/navbar.js"></script>
+
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
@@ -224,6 +236,8 @@
         interval: 5000 //changes the speed
     })
     </script>
+
+    </section>
 
 </body>
 
